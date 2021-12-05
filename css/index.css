@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+  }
+  footer{
+      margin-top: 2em;
+  }
+/*Estilos de la primer seccion del banner*/
+.banner-principal{
+    background-image: url("../images/IMAGEN\ BANNER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    background-color: rgba(0,0,0,0.5);
+    filter: brightness(.85);
+    object-fit: cover;
+}
+.container-logo img{
+    width: 10em; 
+    padding-top: 6em;
+}
+.banner-principal .container-navbar{
+    padding: 6em 0;
+}
+.banner-principal .container-navbar nav{
+    background-color: #ff5b00;
+}
+.banner-principal .container-navbar ul li{
+    margin: 0 1em;
+}
+.banner-principal .container-navbar ul li a{
+    margin: -1em 0; 
+    color: white; 
+    font-weight: 400; 
+    font-size: 1em;
+}
+.container-texto p{
+    color: white; 
+    font-size: 2em; 
+    margin-top: 1em;
+}
+.container-buffet img{
+    width: 35em; 
+    margin-top: 1.5em;
+}
+.container-buffet .container-icon-redes{
+    margin-top: 2em;
+}
+.container-buffet .container-icon-redes a{
+    width: 1.5em; 
+    height: 1.5em; 
+    color: black; 
+    padding: .3em;
+}
+
+/*Estilos de la segunda seccion del banner*/
+.banner2 .container-img2{
+    margin-top: 3em;
+}
+.banner2 .container-img2 img{
+    height: 37em; 
+    width: 80%;
+}
+.container-formulario{
+    margin: 3em 5em 1em 0;
+}
+.container-formulario legend{
+    font-size: 2.5em; 
+    color: #ff5b00; 
+    font-weight: bold;
+}
+.container-formulario .p1{
+    font-size: 1.2em; 
+    color: black;
+}
+.container-formulario .p2{
+    font-size: 1.2em; 
+    font-weight: 700; 
+    color: black;
+}
+.reserva-txt label{
+    font-size: 1.3em;
+}
+.input input{
+    font-size: 1.5em; 
+    background-color: #e1e1e1; 
+    padding: 1.2em 1em; 
+    margin-top: 1em;
+}
+.input-reserva-personas{
+    width: 4em; 
+    border: solid black 1px;
+}
+.boton input{
+    background-color: #ff5b00;  
+    border: none;  
+    border-radius: 4em; 
+    font-size: 1.5em; 
+    padding: .5em 1em; 
+    font-weight: bold; 
+    color: white;
+}
+.input-reserva{
+    font-size: 1em;
+    border: none;
+}
+
+/*Estilos de la seccion de Footer */
+.container-footer{
+    background-color: #ff5b00;
+}
+.container-footer .container-p1{
+    padding: 2em 0;
+}
+.container-footer .container-p1 p{
+    color: white; 
+    font-size: 1em; 
+    text-align: left; 
+    font-weight: bold;
+}
+.container-footer .container-span .span1{
+    background-color: white; 
+    padding: .3em; 
+    border-radius: 50%;
+}
+.container-footer .container-span .span2{
+    color: white; 
+    font-weight: bold; 
+    font-size: 1em; 
+    text-align: left; 
+    font-weight: bold;
+}
+.container-footer .container-span .span1 img{
+    width: 1em; 
+    padding-bottom: .3em;
+}
+
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:7.5em;
+    right:15px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:end;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+.btn-phone{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:10em;
+    right:15px;
+    background:blue;
+    color:#FFF;
+    border-radius:50px;
+    text-align:end;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-phone:hover{
+    background: blue;
+    color: white;
+}
+/*Media Query movil */
+@media (max-width: 550px) {
+    .banner-principal{
+        height: 35em;
+    }
+    .container-logo img {
+        width: 5em;
+        padding-top: 1em;
+    }
+    .banner-principal .container-navbar {
+        padding: 0;
+    }
+    .container-texto p {
+        font-size: 1.2em;
+        margin-top: 1.5em;
+    }
+    .container-buffet img {
+        width: 20em;
+    }
+    .container-formulario legend {
+        font-size: 1.9em;
+    }
+    .container-formulario .p1 {
+        font-size: 1em;
+    }
+    .container-formulario .p2 {
+        font-size: 1em;
+    }
+    .container-formulario {
+       margin: 0;
+    }
+    .input input {
+        width: 12em;
+    }
+    .form{
+        margin-top: 2em;
+    }
+    .boton input {
+        font-size: 1.2em;
+    }
+    .container-footer .container-p1 {
+        padding: 1em 0;
+    }
+    .reserva-txt label {
+        font-size: 1.5em;
+    }
+    .input-reserva{
+        font-size: 1.5em;
+        border: none;
+    }
+    .container-footer .container-p1 p {
+        text-align: center;
+    }
+  }
+
+
+
+
